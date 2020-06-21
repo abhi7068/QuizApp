@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+  >
+    <form>
+      <div
+        class="MuiGrid-root"
+      >
+        <div
+          class="MuiFormControl-root MuiTextField-root"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+            data-shrink="false"
+            for="content"
+            id="content-label"
+          >
+            Add Question
+            <span
+              aria-hidden="true"
+              class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+            >
+               *
+            </span>
+          </label>
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInput-input"
+              data-testid="Input"
+              id="content"
+              name="question"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div
+        class="MuiGrid-root"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled"
+          disabled=""
+          tabindex="-1"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Add Option
+          </span>
+        </button>
+      </div>
+      <br />
+      <br />
+      <div
+        class="MuiGrid-root"
+      />
+      <br />
+      <br />
+      <div
+        class="MuiGrid-root"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled"
+          disabled=""
+          tabindex="-1"
+          type="submit"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Submit
+          </span>
+        </button>
+        <br />
+        <br />
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
